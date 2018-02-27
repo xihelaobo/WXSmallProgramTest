@@ -1,3 +1,5 @@
 {
-  "navigationBarTitleText": "西河老伯"
+  "navigationBarTitleText": "西河老伯",
+  "navigationBarBackgroundColor": "#ff6d26",
+  "navigationBarTextStyle": "white"
 }
