@@ -17,6 +17,10 @@
         "text": "首页"
       },
       {
+        "pagePath": "pages/customIndex/customIndex",
+        "text": "地图测试"
+      },
+      {
         "pagePath": "pages/logs/logs",
         "text": "日志"
       }
