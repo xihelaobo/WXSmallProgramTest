@@ -1,28 +1,25 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs",
     "pages/customIndex/customIndex"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#ff6d26",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#030303",
+    "navigationBarTextStyle":"white",
+    "onReachBottomDistance":"40"
   },
   "tabBar":{
+    "color": "#ADADAD",
+    "selectedColor": "#00CD00",
     "list": [
       {
         "pagePath": "pages/index/index",
         "text": "首页"
       },
       {
-        "pagePath": "pages/customIndex/customIndex",
-        "text": "地图测试"
-      },
-      {
-        "pagePath": "pages/logs/logs",
-        "text": "日志"
+        "pagePath":"pages/customIndex/customIndex",
+        "text":"地图测试"
       }
     ]
   },
