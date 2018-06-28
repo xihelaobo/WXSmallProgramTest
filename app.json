@@ -1,12 +1,12 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/customIndex/customIndex"
+    "pages/customIndex/customIndex",
+    "pages/mySelfCenter/mySelfCenter"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#030303",
-    "navigationBarTextStyle":"white",
+    "navigationBarBackgroundColor":"#FFFFFF",
+    "navigationBarTextStyle":"black",
     "onReachBottomDistance":"40"
   },
   "tabBar":{
@@ -15,11 +15,21 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "text": "首页",
+        "iconPath":"images/homeIcon.png",
+        "selectedIconPath":"images/homeSelectIcon.png"
       },
       {
         "pagePath":"pages/customIndex/customIndex",
-        "text":"地图测试"
+        "text":"地图测试",
+        "iconPath": "images/tabMapIcon.png",
+        "selectedIconPath": "images/tabMapSelectIcon.png"
+      },
+      {
+        "pagePath":"pages/mySelfCenter/mySelfCenter",
+        "text":"个人中心",
+        "iconPath": "images/mySelfIocn.png",
+        "selectedIconPath": "images/mySelfSelectIcon.png"
       }
     ]
   },

@@ -1,2 +1,8 @@
 <!--pages/customIndex/customIndex.wxml-->
 <!-- <text>pages/customIndex/customIndex.wxml</text> -->
+
+<map class='myMap'>
+  <view class='myView' style='backgroundColor:red'>
+
+  </view>
+</map>

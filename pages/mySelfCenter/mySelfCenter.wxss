@@ -1,0 +1,25 @@
+#topView {
+  width: 100%;
+  height: 143px;
+  background-color: white;
+}
+
+#topViewsTopView {
+  width: 100%;
+  height: 60px;
+  background-color: #00C2FF;
+}
+
+#imageContentView {
+  background-color: green;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+}
+
+#userIcon {
+  background-color: red;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
